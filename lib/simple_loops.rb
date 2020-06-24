@@ -22,3 +22,20 @@ def output_array(array)
     i+=1
   end
 end
+
+def return_string_array(array)
+  newArray = []
+  i = 0 
+  while return_string_array[i] do
+    newArray << return_string_array[i].to_s
+    i+= 1 
+  end 
+end 
+
+
+
+
+
+
+
+

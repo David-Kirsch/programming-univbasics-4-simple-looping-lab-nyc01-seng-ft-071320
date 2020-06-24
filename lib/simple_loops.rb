@@ -14,3 +14,11 @@ def loop_message_n_times(message, times)
     counter+= 1
   end
 end
+
+def output_array(array)
+  i = 0
+  while array[i] do
+    puts array[i]
+    i+=1
+  end
+end

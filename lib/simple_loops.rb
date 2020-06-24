@@ -29,7 +29,8 @@ def return_string_array(array)
   while return_string_array[i] do
     newArray << return_string_array[i].to_s
     i+= 1 
-  end 
+  end
+  newArray
 end 
 
 
